@@ -1,0 +1,49 @@
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+}
+/* навигация */
+.nav {
+    background: #e0e0e0;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    left: 0;
+    padding: 10px 0;
+}
+.nav a {
+    margin: 10px 20px;
+    display: inline-block;
+    text-transform: capitalize;
+}
+.nav a.active {
+    color: #da3611;
+}
+
+/* заголовок */
+.header {
+    margin: 100px auto 50px; /* =верх право низ лево=право */
+    text-align: center;
+}
+/* контейнер */
+.general {
+    display: flex;
+    width: 1280px;
+    margin: 0 auto;
+}
+.general.general-dir-col {
+    flex-direction: column;
+}
+/* колонки (3шт) */
+.col {
+    padding: 0 15px; /* = 0 10 0 10 */
+    width: 32%;
+}
+/* колонки (2шт) */
+.col.col-2 {
+    width: 50%;
+}
+
+
